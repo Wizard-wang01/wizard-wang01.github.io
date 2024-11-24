@@ -46,14 +46,38 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I am interested in Autonomous Driving.
-                <p>
-
+                  I am interested in Robotics, Robot Navigation, Reinforcement Learning, Autonomous Driving.
                 </p>
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <!-- MotionLM-RL -->
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img style="position:relative;" src='assets/publications/motionlm-rl/motionlm-demo.gif' width="180">
+        </div>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="assets/publications/motionlm-rl/index.html">
+          <span class="papertitle">
+            Mitigating Out-of-Distribution Issues in Motion Prediction with Autoregressive model and Reinforcement Learning.
+          </span>
+        </a>
+        <br>
+        <a href="https://scholar.google.com/citations?user=7qNxkIoAAAAJ&hl=en" style="color: black""><strong>Mingyi Wang</strong></a>,
+        <a href="https://dblp.org/pid/262/1535.html" style="color: black">Jingke Wang</a>,
+        <a href="https://dblp.org/pid/160/9533.html" style="color: black">Tengju Ye</a>,
+        <a href="https://en.westlake.edu.cn/faculty/kaicheng-yu.html" style="color: black">Kaicheng Yu</a>,
+        <br>
+        <em>Code and Paper coming soon</em>
+        <br>
+        <p>
+          We developed a GPT-style autoregressive model based on <a href="https://waymo.com/intl/zh-cn/research/motionlm/">MotionLM</a>, which can be used for prediction, planning, and agent simulation in autonomous vehicles. Our model can generate trajectories for all agents in a scene through a single inference, and these trajectories are differentiable. Building on this model, we utilized reinforcement learning to mitigate out-of-distribution issues in trajectory prediction.
+        </p>
+      </td>
+      </tr>
 
       <!-- SSI -->
       <td style="padding:20px;width:25%;vertical-align:middle">
@@ -70,14 +94,13 @@
         <br>
         Huiyan Li,
         <strong>Mingyi Wang</strong>,
-        <a href="https://person.zju.edu.cn/guangli">Guang Li</a>,
+        Han Gao, Shuo Zhao, 
+        <a href="https://person.zju.edu.cn/guangli" style="color: black">Guang Li</a>,
+        You Wang
         <br>
         <em>INTERSPEECH, 2023</em>
         <br>
-        <a href="https://www.isca-archive.org/interspeech_2023/li23l_interspeech.pdf">pdf</a>
-        /
-        <a href="https://www.isca-archive.org/interspeech_2023/li23l_interspeech.pdf">arXiv</a>
-
+        <!-- <a href="https://www.isca-archive.org/interspeech_2023/li23l_interspeech.pdf">pdf</a> -->
         <p>
           This paper presents a hybrid SSI based on the converter between bimodal electrophysiological signals and audio signals. EEG and sEMG are fused through two sequence-to-sequence models, and multi-task losses are applied to achieve complementarity between speech intention and muscle activity in silent speech.
         </p>
@@ -91,17 +114,18 @@
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <span class="papertitle">
-          A Simple and Effective Multi-agent Joint Prediction Method for Autonomous Driving.
-        </span>
+        <a href="https://arxiv.org/abs/2411.07612">
+          <span class="papertitle">
+            A Joint Prediction Method of Multi-Agent to Reduce Collision Rate.
+          </span>
+        </a>
         <br>
         <strong>Wang, M.</strong>, Zou, H., Liu, Y., et al.
         <br>
-        <em>2024 China Automation Congress (CAC)</em>
-        <br>
-        <span>Indexed by EI, awaiting publication</span>
+        <em>2024 China Automation Congress (CAC), Indexed by EI</em>
+        <span></span>
         <p>
-          We study a simplified yet effective joint prediction methodology for multi-agent trajectory generation in autonomous driving applications, enhancing the accuracy of agent interaction modeling.
+          We study a simplified yet effective joint prediction methodology for multi-agent trajectory generation in autonomous driving applications, enhancing the accuracy of agent interaction modeling. Compared to the SIMPL baseline, Our method effectively reduces the collision rate among agents.
         </p>
       </td>
       </tr>
@@ -176,15 +200,16 @@
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr>
       <td style="padding:20px;width:100%;vertical-align:middle">
-        <h2>Experience</h2>
+        <h2>Rearch Experience</h2>
         <p>
           After graduating from my undergraduate studies, I spent my first year as an intern at my advisor's company, primarily working on spherical robot trajectory navigation using ROS and C++. 
         </p>
         <p>
-          From August 2023 to February 2024, I interned at DJI Automotive in Shenzhen. Under the guidance of my advisor, Zhang Lu, I conducted research on learning-based trajectory generation methods and a unified framework for prediction and planning. Ultimately, this project was integrated into DJI Automotive's current end-to-end model.
+          From August 2023 to February 2024, I interned at DJI Automotive in Shenzhen. Under the guidance of my mentor, <a href="https://masterizumi.github.io/">Lu Zhang</a>, I conducted research on learning-based trajectory generation methods and a unified framework for prediction and planning. Ultimately, this project was integrated into DJI Automotive's current end-to-end model.
         </p>
         <p>
-          In April 2024, I became a visiting student under Professor Kaicheng Yu at Westlake University. I then joined Udeer Intelligent for an internship, where I worked on a joint project exploring advanced agent interaction modeling methods and experimented with integrating them with reinforcement learning. This approach aimed to address the challenge of distribution shift in learning-based trajectory planning.
+          In April 2024, I became a visiting student under Professor <a href="https://en.westlake.edu.cn/faculty/kaicheng-yu.html">Kaicheng Yu</a> at Westlake University. 
+          I then joined UDEER.AI for an internship, where I worked on a joint project exploring advanced agent interaction modeling methods and experimented with integrating them with reinforcement learning. This approach aimed to address the challenge of distribution shift in learning-based trajectory planning.
         </p>
         <p>
           All these experiences have led me to where I am today. 
@@ -201,11 +226,14 @@
           </div>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
-          <span class="papertitle">Group photo with the PDC team at Udeer company</span>
+          <span class="papertitle">Group photo with the PDC team at UDEER.AI</span>
           <br>
-          <em>Udeer company in Hangzhou</em>
+          <em>UDEER.AI (Former Alibaba DAMO Academy Autonomous Driving Team) in Hangzhou</em>
           <br>
-          <p>Group photo with the PDC team in Udeer company, where everyone looks a bit dazed.</p>
+          <p>
+            While visiting Westlake University as a student, I joined the Planning, Decision, and Control group at UDEER.AI to participate in an industry-academic collaborative project. 
+            Here, I worked on cutting-edge robotics decision-making algorithms and completed the work titled <a href="assets/publications/motionlm-rl/index.html"><i>Mitigating Out-of-Distribution Issues in Motion Prediction with Autoregressive Model and Reinforcement Learning</i></a>.
+          </p>
   
           </td>
           </tr>          
@@ -216,15 +244,13 @@
         </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-        <span class="papertitle"> Group photo with the PNC team at DJI Automotive company </span>
+        <span class="papertitle"> Group photo with the PNC team at Zhuoyu Technology (DJI Automotive) </span>
         <br>
         <em>DJI Automotive PNC team in DJI SKY CITY, Shenzhen</em>
         <br>
-
-        <a href="https://www.bilibili.com/video/BV14d4y1c7kF/?spm_id_from=333.337.search-card.all.click">DJI SKY CITY</a>
-        <p></p>
         <p>
-          This one looks greate.
+          My internship experience at DJI Automotive was incredibly rewarding. Our team proposed the PnP model, which was eventually applied to autonomous vehicles. 
+          After returning from the internship, I was inspired by my mentor Lu Zhang's paper at the company, and I completed my scene-consistent trajectory prediction paper: <a href="https://arxiv.org/abs/2411.07612"><i>A Joint Prediction Method of Multi-Agent to Reduce Collision Rate</i></a>.
         </p>
         </td>
         </tr>
